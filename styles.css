@@ -1,0 +1,107 @@
+* {
+    box-sizing:border-box;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+  
+  body{
+    display:grid;
+    place-items:center;
+    background-color:rgb(230, 239, 246); 
+  }
+  
+  .container{
+    margin:auto;
+    border-radius:5px;
+    overflow:hidden;
+    
+    
+  }
+  
+  .join-us{
+    background-color:rgb(255, 255, 255);
+    padding:2em;
+    color:rgb(0 , 0, 0, .4);
+  }
+  
+  .join-us h3{
+    color:rgb(43, 179, 177);
+    font-weight: 700;
+  }
+  
+  .join-us span{
+    color:rgb(191, 223, 50);
+    font-weight:700; 
+  }
+  
+  .join-us p{
+    line-height:2;
+  }
+  /*price*/
+  
+  .price{
+    background-color:rgb(43, 179, 177);
+    padding:2em;
+    color:rgb(255, 255, 255);
+    width:50%;
+  }
+  
+  .cost{
+    display:flex;
+  }
+  
+  .dollar{
+    font-size:30px;
+    font-weight:600;
+    
+  }
+  
+  .per-month{
+    color:rgb(255, 255, 255, .6);
+    line-height:2;
+    padding-left:10px;
+  }
+  
+  button{
+    background-color:rgb(191, 223, 50);
+    width:98%;
+    height:50px;
+    border:0;
+    color:#fff;
+    border-radius:6px;
+    font-weight:600;
+  }
+  
+  .why-us{
+    background-color:rgb(74,190, 189);
+    padding:2em;
+    width:50%;
+  }
+  
+  .why-us h3{
+    color:#fff;
+    font-weight:500;
+    
+  }
+  
+  .why-us p{
+    color:rgb(255, 255, 255, .8);
+    line-height:1.5;
+  }
+  
+  .side{
+    display:flex;
+    width:100%;
+  }
+  
+  @media (max-width: 575px){
+    .side{
+    display:block;
+     }
+    .why-us{
+      width:100%;
+    }
+    .price{
+      width:100%;
+    }
+  }
